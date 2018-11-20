@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: rgb(163, 255, 224)
+}
+
+/* Början på vår Navbar */
+nav {
+    background-color: #f7f7f7;
+    height: 60px;
+    /* Hur mycket plats en rad ska ta */
+    line-height: 60px;
+}
+
+.logo {
+    float: left;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.links {
+    float: right;
+}
+
+.links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+/* Slutet på vår Navbar */
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+section, aside {
+    background-color: #f7f7f7;
+    /* Jämna ut kanterna, göra nått runt */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section {
+    float: left;
+    width: 65%;
+}
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    border-bottom: 2px solid rgb(186, 234, 238)    
+}
+
+.post {
+    padding: 20px;    
+    border-bottom: 1px solid rgb(186, 234, 238)
+}
+
+.post h2 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.post p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+aside img {
+    width: 200px;
+    border-radius: 20px;   
+    display: block;
+    margin: 0 auto;
+}
+
+aside h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+aside p {
+    padding: 0 20px;
+    text-align: center;
+}
